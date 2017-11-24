@@ -3,6 +3,14 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-new-age/blob/master/LICENSE)
  */
+
+
+ .bold {
+  font-weight: bold;  
+  font-size: 30px;
+  text-decoration: underline;
+ }
+
 html,
 body {
   width: 100%;
