@@ -65,14 +65,17 @@
             <div class="header-content mx-auto">
               <h1 class="mb-5">GoodQMS is a simple and easy to use queue management system for your clinic!</h1>
               <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Schedule a demo!</a>
-              <div>
-                <hr>
-                <br>
+              
+              <hr>
+              <hr>
+              <hr>    
+
+              <div>            
                 <form action="//goodqms.com/users/sign_in" method="post" accept-charset="UTF-8">
-                  <input type="text" name="user[username]" placeholder="Username"> 
-                  <input type="password" name="user[password]" placeholder="Password"><br><br>
-                  <input class="btn btn-outline  btn-xl js-scroll-trigger" type="submit" name="Submit" value="log in"> 
-              </form>                
+                    <input type="text" name="user[username]" placeholder="Username"> 
+                    <input type="password" name="user[password]" placeholder="Password"><br><br>
+                    <input class="btn btn-outline  btn-xl js-scroll-trigger" type="submit" name="Submit" value="log in"> 
+                </form>                
               </div>
             </div>
           </div>
@@ -81,12 +84,9 @@
               <div class="device-mockup iphone6_plus portrait gold">
                 <div class="device">
                   <div class="screen">
-                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
                     <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
                   </div>
-                  <div class="button">
-                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                  </div>
+                  <div class="button"></div>
                 </div>
               </div>
             </div>
@@ -101,10 +101,6 @@
           <div class="col-md-8 mx-auto">
             <h2 class="section-heading">Call +65 8333-8951</h2>
             <p>Have questions about the queue management system? Call us!</p>
-            <div class="badges">
-              <a class="badge-link" href="#"><img src="img/google-play-badge.svg" alt=""></a>
-              <a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a>
-            </div>
           </div>
         </div>
       </div>
@@ -113,8 +109,8 @@
     <section class="features" id="features">
       <div class="container">
         <div class="section-heading text-center">
-          <h2>Unlimited Features, Unlimited Fun</h2>
-          <p class="text-muted">Check out what you can do with this app theme!</p>
+          <h2>Simple & Easy-to-use QMS</h2>
+          <!-- <p class="text-muted">The easiest queue management system.</p> -->
           <hr>
         </div>
         <div class="row">
@@ -123,12 +119,10 @@
               <div class="device-mockup iphone6_plus portrait white">
                 <div class="device">
                   <div class="screen">
-                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
                     <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
                   </div>
-                  <div class="button">
-                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                  </div>
+                  <div class="button"></div>
+
                 </div>
               </div>
             </div>
@@ -191,10 +185,20 @@
 
     <section class="contact bg-primary" id="contact">
       <div class="container">
-        <h2>We
-          <i class="fa fa-heart"></i>
-          new friends!</h2>
-        <ul class="list-inline list-social">
+        <h2>Have a question? Let us answer!</h2>
+
+        <!--Start of Zendesk Chat Script-->
+        <script type="text/javascript">
+          window.$zopim||(function(d,s){var z=$zopim=function(c){
+          z._.push(c)},$=z.s=
+          d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+          _.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
+          $.src='https://v2.zopim.com/?5HnzHc6arPj7Lgo5yosNeaNCuo9xL9ZT';z.t=+new Date;$.
+          type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
+          </script>
+          <!--End of Zendesk Chat Script-->
+  
+        <!-- <ul class="list-inline list-social">
           <li class="list-inline-item social-twitter">
             <a href="#">
               <i class="fa fa-twitter"></i>
@@ -210,7 +214,7 @@
               <i class="fa fa-google-plus"></i>
             </a>
           </li>
-        </ul>
+        </ul> -->
       </div>
     </section>
 
