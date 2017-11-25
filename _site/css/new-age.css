@@ -4,6 +4,11 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-new-age/blob/master/LICENSE)
  */
 
+ .bg-primaryX{
+  background: #facf6c;
+  background: -webkit-linear-gradient(#facf6c, #facf6c);
+  background: linear-gradient(#facf6c, #facf6c);  
+ }
 
  .bold {
   font-weight: bold;  
