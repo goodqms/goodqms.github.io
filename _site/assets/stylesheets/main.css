@@ -1,6 +1,14 @@
+
+.small_font {
+  font-size: 0.6em;
+}
+
+.big_font{
+  font-size: 0.8em;
+}
+
 #top-panel {
   /* background-image: url("/assets/images/background.jpg"); */
-  
 }
 
 .top-panel {
